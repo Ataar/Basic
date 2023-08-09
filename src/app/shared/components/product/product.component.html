@@ -1,0 +1,21 @@
+
+<!-- for creating a paragraph dynamically in angular -->
+<p>
+    This is product {{productName}} and
+    whose id is {{productId}}
+</p>
+
+
+ 
+   <!-- for crating ul list  -->
+   <div class="col-6 m-auto">
+ <ul class="list-group text-center">
+    <li class="list-group-item" *ngFor="let skill of skills">
+         I Love {{skill}}
+          <!-- Here {{skill}} is called string interpolation  -->
+          <!-- agar apke ts file me data hai ya property hai aur apko wo property HTML file me bind karna hai to hum karli braces{{}} use karte hai jisko hum string interpolotion khte  hain   -->
+    </li>
+</ul>
+</div>
+
+
